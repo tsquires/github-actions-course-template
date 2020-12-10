@@ -29,7 +29,7 @@ jobs:
     if: always()
     steps:
       - name: Test Always
-      - run: echo "test always"
+        run: echo "test always"
 
   test:
     runs-on: ubuntu-latest
